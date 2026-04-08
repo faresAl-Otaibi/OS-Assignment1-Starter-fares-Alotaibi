@@ -32,16 +32,17 @@ Document your development process as you work on the assignment. Add entries sho
 
 ## Your Development Log:
 
-### Entry 1 - [Date and Time]
+
+### Entry 1 - [8/4/2026 4:47]
 **What I did**: 
-
+creat new github account and download VS and git and jdk for java And run a test for the code
 **Details**: 
-
-**Challenges**: 
-
-**Solution**: 
+I opened the assignment file to see the requirements and found that downloading an application was required, so I downloaded it. I also found that it needed an application called Git, so I downloaded that as well. When I started opening the code, I found that it needed a Java JDK to run, so I downloaded it and started testing the code.
+**Challenges**and **Solution**: 
+I faced many challenges, from understanding the requirements of the assignment file and downloading VS, which gave me a headache trying to figure out how to use it. First, I wondered where to download it from and how to connect it to GitHub. I tried many times and figured it out, but then another problem arose: creating a copy of the file. I tried many times, but nothing worked. Then I searched for a way to do it and discovered that I had to download Git for the command to work. But when I tried to run the command, I discovered that I couldn't run the Java code; I had to download its package and JDK 17. After that, I faced a problem: my lack of experience with the application itself. I thought the run button would display the output, but it didn't. I searched for a way to do it and discovered it was through text commands, and that's where I stopped.
 
 **Time spent**: 
+2-3 hour
 
 ---
 
