@@ -46,17 +46,17 @@ I faced many challenges, from understanding the requirements of the assignment f
 
 ---
 
-### Entry 2 - [Date and Time]
+### Entry 2 -  [9/4/2026 4:08]
 **What I did**: 
-
+ "Feature 1: Added priority field to Process class"
 **Details**: 
-
+I finished "Feature 1: Priority field added to operation class." I added the priority parameter and included it in the constructor class inputs. I also added a callback for it and inserted it when generating operations, along with generating a random number from one to five. Then I modified the display to prevent modification.
 **Challenges**: 
-
+The problem was not writing the code itself, but rather modifying the display, because when I wrote the modification, I was surprised by strange codes and no change in the things I wrote And in the priority, I left it in the form of numbering only.
 **Solution**: 
-
+I discovered that my writing of the run command for the code was wrong, so I searched for the debug command and was surprised that the problem with the strange text was that there was an error in the encoding. I searched for a solution and did not find a solution for it, and I left it because it is in the download codes and it does not affect it very much  ,I also left it because the problem of priority function is complex and I think that is enough
 **Time spent**: 
-
+2
 ---
 
 ### Entry 3 - [Date and Time]
