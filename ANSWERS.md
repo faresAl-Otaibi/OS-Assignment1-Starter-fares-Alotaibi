@@ -65,18 +65,18 @@ Thread thread = new Thread(process);
 
 **Your Answer:**
 
-### Example 1: [Name of application/scenario]
+### Example 1: [Flight Booking Systems]
 
 **Description**: 
-[Describe the real-world scenario or application]
+[In flight booking systems, thousands of users try to book tickets almost simultaneously, especially during sales, holidays, and vacations. Each person searches, selects a seat, and then confirms the booking.]
 
 **Why Round-Robin works well here**: 
-[Explain why Round-Robin scheduling is suitable. Consider fairness, responsiveness, predictability, etc.]
+[Round Robin gives each person a short time slot for the booking process in rotation. This prevents one person from unfairly delaying others, thus making the system fair.]
 
-### Example 2: [Name of application/scenario]
+### Example 2: [Banking Systems]
 
 **Description**: 
-[Describe the real-world scenario or application]
+[In online banking systems, a huge number of transactions are processed, such as money transfers, cash withdrawals, balance inquiries, and bill payments, from thousands of customers.]
 
 **Why Round-Robin works well here**: 
 [Explain why Round-Robin scheduling is suitable. Consider fairness, responsiveness, predictability, etc.]
@@ -86,10 +86,10 @@ Thread thread = new Thread(process);
 ## Summary
 
 **Key concepts I understood through these questions:**
-1. 
-2. 
-3. 
+1. Round-Robin scheduling
+2. multithreading 
+3. context switching 
 
 **Concepts I need to study more:**
-1. 
-2. 
+1. Round-Robin scheduling
+2. multithreading 
