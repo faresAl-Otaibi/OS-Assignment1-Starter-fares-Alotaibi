@@ -57,17 +57,17 @@ I discovered that my writing of the run command for the code was wrong, so I sea
 2
 ---
 
-### Entry 3 - [Date and Time]
+### Entry 3 - [11/4/2026 5:24]
 **What I did**: 
-
+add Feature 2 - Count Context Switche +  Feature 3 - Track Waiting Time
 **Details**: 
-
+I added Feature 2 (Context Switches), which counts the number of switches in the context within the processor's table simulation. I added a counter to it to track the switches and a display to show the total number of switches at the end. + I also added Feature 3 (Track Waiting Time), which tracks the waiting time for each process. I modified the scheduling so that the counter increases each time the processor switches from one process to another. Additionally, I modified the Process class to calculate the waiting time for each process using system time and then display the total at the end.
 **Challenges**: 
-
+In the specification, I encountered a problem regarding when a transition is considered valid in a context switch, as some operations are repeated multiple times in a round-robin system, complicating matters. + Calculating the actual waiting time in a round-robin system is a headache because the operation is not a one-time occurrence but is repeated several times.
 **Solution**: 
-
+The solution to the first problem is to run a new Context Switch each time, using a constant counter to calculate it correctly. As for the solution to the second problem, I used System.currentTimeMillis, storing the last execution time for each operation, then calculating the difference between the times for each operation and adding it to the total wait time.
 **Time spent**: 
-
+5 hour !!! ; i had many Problems that I couldn't solve on YouTube or with artificial intelligence caused delays in finding a solution. I'm trying to find an alternative to what I can do, The app is very difficult to use, even when watching a YouTube video.
 ---
 
 ### Entry 4 - [Date and Time]
