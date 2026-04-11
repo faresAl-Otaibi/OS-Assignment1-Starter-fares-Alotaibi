@@ -32,6 +32,10 @@ Document your development process as you work on the assignment. Add entries sho
 
 ## Your Development Log:
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 57fd0c5d8ab8d3448c214a280dee22306ac5db7e
 ### Entry 1 - [8/4/2026 4:47]
 **What I did**: 
 creat new github account and download VS and git and jdk for java And run a test for the code
@@ -42,9 +46,16 @@ I faced many challenges, from understanding the requirements of the assignment f
 
 **Time spent**: 
 2-3 hour
+<<<<<<< HEAD
 ---
 
 ### Entry 2 - [9/4/2026 4:08]
+=======
+
+---
+
+### Entry 2 -  [9/4/2026 4:08]
+>>>>>>> 57fd0c5d8ab8d3448c214a280dee22306ac5db7e
 **What I did**: 
  "Feature 1: Added priority field to Process class"
 **Details**: 
