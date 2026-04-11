@@ -8,7 +8,7 @@ Answer the following questions about your learning experience. Each answer shoul
 ## Question 1: What did you learn about multithreading?
 
 **Your Answer:**
-
+I learned that multithreading in Java allows multiple tasks to be executed simultaneously using threads within the same process. Each thread has its own distinct function, and they all work together without any competition or slowdown. Through the code, I roughly understood how the system allocates processor time between processes using a round-robin system, where each process has a specific time (Time Quantum). When the timer reaches its limit, it pauses, allowing the next process to take over, and so on. This rotation taught me how time allocation works, and it requires prioritizing tasks because each thread can run at different times. Therefore, precise prioritization and time management are necessary. It was difficult for me to accurately calculate the waiting time and rotation times because a process might take more than one turn.
 [Write your answer here. Discuss specific concepts like thread creation, thread states, how threads execute concurrently, what surprised you, etc.]
 
 ---
