@@ -16,7 +16,7 @@ I learned that multithreading in Java allows multiple tasks to be executed simul
 ## Question 2: What was the most challenging part of this assignment?
 
 **Your Answer:**
-
+The application, the application, the application—it's not difficult to use, but setting it up is. I think I've set it up correctly so far, but I've encountered many problems, from how to download it and from where to download it, to what I should download with it. Even after downloading, I'm having trouble displaying some texts because their encoding might be incompatible with my device. I don't think it's easy for students to suddenly start using this application for an assignment. The only good thing is the built-in code help, and I think it would be better if it were on an application we've already practiced. The third submission for Features 2 and 3 takes 4 or 5 hours, which is unreasonable.
 [Describe the specific challenge. Was it understanding the code? Implementing a feature? Using Git? Explain what made it difficult and how it relates to the course concepts.]
 
 ---
