@@ -10,7 +10,7 @@ Answer all 4 questions with detailed explanations. Each answer should be **3-5 s
 **Question**: Explain the difference between a **thread** and a **process**. Why did we use threads in this assignment instead of creating separate processes?
 
 **Your Answer:**
-
+A processor is a complete program in itself with its own dedicated memory, while a thread is a small part of the whole that shares memory with the other threads and has nothing of its own. The difference between them lies in size, resources, and privacy. They can be likened to a processor being a large, complete ship; despite its size, movement within it is slow. Threads, on the other hand, are like small ships—numerous and fast. We use threads instead of different processors because we need two features that processors lack: synchronization and speed. Using processors might provide synchronization, but not at good speeds. It might give you high speeds, but you would need many processors, which is unacceptable because you haven't used it in the best way possible. The Round Robin system with threads allows you to use it in the simplest and most efficient way possible.
 [Write your answer here. Consider: What is a process? What is a thread? How do they differ in terms of memory, resources, creation overhead? Why are threads more suitable for this simulation?]
 
 ---
