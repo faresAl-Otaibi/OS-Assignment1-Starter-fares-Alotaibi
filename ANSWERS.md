@@ -20,7 +20,7 @@ A processor is a complete program in itself with its own dedicated memory, while
 **Question**: In Round-Robin scheduling, what happens when a process doesn't finish within its time quantum? Explain using an example from your program output.
 
 **Your Answer:**
-
+In short, this approach prevents monopolies and provides a fair opportunity for everyone. It presents a list of processes ready for execution, but they are lined up in order to take their time. It uses a round-robin system where the order is determined using a first-come, first-served algorithm, forming a continuous loop. After the first one finishes, the last one returns, and so on.
 [Write your answer here. Describe the specific behavior - where does the process go? When does it run again? Give an example from your actual program output showing a process that was re-queued.]
 
 Example from my output:
