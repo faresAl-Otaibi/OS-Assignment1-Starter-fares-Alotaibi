@@ -32,12 +32,9 @@ class Process implements Runnable {
     private int timeQuantum; // Time slice (time quantum) allowed per CPU access (in milliseconds)
     private int remainingTime; // Time left for the process to finish its execution
     private int priority; // Priority of the process #1 Feature
-<<<<<<< HEAD
     private long arrivalTime; // Arrival time of the process #3 Feature
     private long waitingTime; // Total waiting time of the process #3 Feature
     private long lastStartTime; // Last time the process started running #3 Feature
-=======
->>>>>>> 57fd0c5d8ab8d3448c214a280dee22306ac5db7e
     // Constructor to initialize the process with name, burst time, and time quantum
     public Process(String name, int burstTime, int timeQuantum , int priority) {
         this.name = name;
@@ -45,12 +42,9 @@ class Process implements Runnable {
         this.timeQuantum = timeQuantum;
         this.remainingTime = burstTime; // Initially, remaining time is equal to the burst time
         this.priority = priority;
-<<<<<<< HEAD
         this.arrivalTime = System.currentTimeMillis(); // Set arrival time to current time
         this.waitingTime = 0; // Initialize waiting time to 0
         this.lastStartTime = arrivalTime; // Initialize last start time to arrival time
-=======
->>>>>>> 57fd0c5d8ab8d3448c214a280dee22306ac5db7e
     }
 
     // This method will be called when the thread for this process is started
@@ -164,13 +158,10 @@ class Process implements Runnable {
     public int getPriority() {
         return priority;
     }
-<<<<<<< HEAD
     public long getWaitingTime() {
         return waitingTime;
     }
-=======
 
->>>>>>> 57fd0c5d8ab8d3448c214a280dee22306ac5db7e
 }
 
 public class SchedulerSimulation {
@@ -229,11 +220,9 @@ public class SchedulerSimulation {
             // Random burst time for each process between timeQuantum/2 and 3*timeQuantum
             int burstTime = timeQuantum/2 + random.nextInt(2 * timeQuantum + 1);
              priority = 1 + random.nextInt(5); // Starting priority for processes #1 Feature
-<<<<<<< HEAD
             
-=======
 
->>>>>>> 57fd0c5d8ab8d3448c214a280dee22306ac5db7e
+
             // Create a new process object with a unique name, burst time, and the defined time quantum
             Process process = new Process("P" + i, burstTime, timeQuantum , priority); // Increment priority for each process #1 Feature
             
