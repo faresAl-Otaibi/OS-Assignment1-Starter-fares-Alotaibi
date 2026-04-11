@@ -21,13 +21,13 @@ A processor is a complete program in itself with its own dedicated memory, while
 
 **Your Answer:**
 In short, this approach prevents monopolies and provides a fair opportunity for everyone. It presents a list of processes ready for execution, but they are lined up in order to take their time. It uses a round-robin system where the order is determined using a first-come, first-served algorithm, forming a continuous loop. After the first one finishes, he become the last ,k, and so on.exmpl: ظû╢ P1 executing quantum [5000ms]
-  ظأة Quantum progress: [ظûêظûêظûêظûêظûêظûêظûêظûêظûêظûêظûêظûêظûêظûêظûê] 100%
+  ظأة Quantum progress: [ظûêظûêظûêظûêظûêظûêظûêظûêظûêظûêظûêظûêظûêظûêظûê
+[Write your answer here. Describe the specific behavior - where does the process go? When does it run again? Give an example from your actual program output showing a process that was re-queued.]
+
+Example from my output:] 100%
   ظ╕ P1 completed quantum 5000ms ظ¤é Overall progress: [ظûêظûêظûêظûêظûêظûêظûêظûêظûêظûêظûêظûêظûêظûêظûêظûêظûêظûêظûّظûّ] 90%
      Remaining time: 534ms
   ظ╗ P1 yields CPU for context switch
-[Write your answer here. Describe the specific behavior - where does the process go? When does it run again? Give an example from your actual program output showing a process that was re-queued.]
-
-Example from my output:
 ```
 [Paste a relevant snippet from your program output here showing a process being re-queued]
 ```
@@ -42,18 +42,20 @@ Example from my output:
 **Question**: A thread can be in different states: **New**, **Runnable**, **Running**, **Waiting**, **Terminated**. Walk through these states for one process (P1) from your simulation.
 
 **Your Answer:**
-
+The first step involves creating the thread using the `new Thread(process)` code, followed by its preparation using the `start()` code. When the system selects the thread and starts it with the `run()` code, it enters a waiting state using `Thread.sleep()` after the `Time Quantum` time has elapsed. At this point, it pauses temporarily or is left by the processor. The final step is that it terminates when its remaining time reaches zero.
 [Write your answer here. For each state, explain when P1 enters that state during the simulation. Use your understanding of the code to trace through the lifecycle.]
 
-1. **New**: [When is P1 in New state?]
+1. **New**: [When is P1 in New state?]  ?Process process = new Process("P1", burstTime, timeQuantum , priority);
+Thread thread = new Thread(process);
 
-2. **Runnable**: [When does P1 become Runnable?]
 
-3. **Running**: [When is P1 Running?]
+2. **Runnable**: [When does P1 become Runnable?] processQueue.add(thread);
 
-4. **Waiting**: [When/why would P1 be Waiting?]
+3. **Running**: [When is P1 Running?] currentThread.start();
 
-5. **Terminated**: [When is P1 Terminated?]
+4. **Waiting**: [When/why would P1 be Waiting?] Thread.sleep(stepTime); when and why is up
+
+5. **Terminated**: [When is P1 Terminated?] if (remainingTime == 0)
 
 ---
 
