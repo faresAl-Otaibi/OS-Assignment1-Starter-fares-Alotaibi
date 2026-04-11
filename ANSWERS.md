@@ -86,8 +86,8 @@ Thread thread = new Thread(process);
 ## Summary
 
 **Key concepts I understood through these questions:**
-1. Round-Robin scheduling
-2. multithreading 
+1.How does the amount of time affect performance and efficiency in periodic rotation scheduling?
+2.How do operating systems manage CPU scheduling in real systems compared to simulations?
 3. context switching 
 
 **Concepts I need to study more:**
