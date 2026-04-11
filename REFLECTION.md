@@ -24,7 +24,7 @@ The application, the application, the application—it's not difficult to use, b
 ## Question 3: How did you overcome the challenges you faced?
 
 **Your Answer:**
-
+As I said, most of the challenges are related to the application's settings, not its use. However, I was able to overcome some issues, such as displaying the code during operation. Also, the help of writing code and the video clips, among other methods, greatly assisted me. This is all I have to say, and thank you.
 [Describe your problem-solving approach. Did you read documentation? Ask for help? Debug systematically? What resources did you use? What strategies worked?]
 
 ---
@@ -32,7 +32,7 @@ The application, the application, the application—it's not difficult to use, b
 ## Question 4: How can you apply multithreading concepts in real-world applications?
 
 **Your Answer:**
-
+There are many uses for it; in fact, I believe they were derived from the rest of the world. For example, applications open, install, and perform multiple tasks simultaneously, from viewing the interface to downloading data from the internet and browsing, such as YouTube. There are also servers, the most famous being game servers. For example, battle royale games allow 100 people to play together at the same time. Banks can perform transfers, check balances, and update accounts for thousands of people without any slowdown. There are even examples of this in nature itself, the most famous being ant colonies.
 [Give specific examples from real applications you use (web browsers, games, mobile apps, etc.). Explain why threads are useful in those scenarios. Connect to what you learned in this assignment.]
 
 ---
